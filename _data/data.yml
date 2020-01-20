@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Eddwan Hallen
-    tagline: Software Developer
+    tagline: Software Developer and CCIE '#58006'
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -51,12 +51,15 @@ education:
       university: Salgado de Oliveira University
       time: 2007
       details: |
-        This degree is very focused in Network deisgns, plan, project and implementation of hardware and software. Also had the change to improve the programming skills at this college.
+        This degree is very focused in Network project and implementation of hardware and software, including the specific credits for programming languages and computer architectures.
     - degree: MBA in Project Management
       university: Federal Univeristy of Juiz de Fora
       time: 2013
       details: |
-        Focused in Project Management in general, this post degree improved my ability to work and conduct a project as leader.
+        Focused in Project Management in general, this post degree improved my ability to work and conduct a project as a leader.
+    - degree: SSCA '#1442872842317-17847'
+      university: The SIP School
+      time: 2015
     - degree: CCIE Collaboration 58006
       university: Cisco Systems
       time: 2017
