@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Eddwan Hallen
-    tagline: Software Developer and CCIE '#58006'
+    tagline: Software Developer and CCIE 58006
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -38,7 +38,7 @@ sidebar:
       - item: Cycling
         link:
 
-      - item: Aeromodelling
+      - item: Aeromodelling and Aviation
         link:
 
 career-profile:
