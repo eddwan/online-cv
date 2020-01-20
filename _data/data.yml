@@ -119,3 +119,9 @@ skills:
 
       - name: Cisco and Broadsoft Collaboration products
         level: 95%
+
+      - name: Firewalls and security items
+        level: 75%
+      
+      - name: DNS and internet content delivery
+        level: 75%
