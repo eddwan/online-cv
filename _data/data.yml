@@ -3,28 +3,40 @@
 #
 
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: False # set to False if you want education in main section instead of in sidebar
+  position: right # position of the sidebar : left or right
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: False # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Eddwan Hallen Silva
-    tagline: Solutions Architect — Collaboration · CCIE Collaboration · UC Architect
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Eddwan Hallen Silva
+  tagline: Solutions Architect — Collaboration · CCIE Collaboration · UC Architect
+  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: eddwan@gmail.com
-    phone: +55 21 99697-3923
-    website: eddwan.com #do not add http://
-    linkedin: eddwan
-    github: eddwan
-    gitlab:
-    bitbucket:
-    twitter: '@eddwan'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+  # Sidebar links
+  email: eddwan@gmail.com
+  phone: +55 21 99697-3923
+  timezone: America/Sao_Paulo # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  citizenship: Brazilian
+  website: https://eddwan.com # Include the full website URL, including "http://" or "https://".
+  linkedin: eddwan
+  xing:
+  github: eddwan
+  telegram: # add your nickname without '@' sign
+  gitlab:
+  bitbucket:
+  bluesky: # Specify your full Bluesky handle
+  twitter: '@eddwan'
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+  mastodon: # Please include your full Mastodon link here.
+  hackerrank: # Please provide your HackerRank username.
+  leetcode: # Please provide your LeetCode username.
+  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
-    languages:
+  languages:
+    title: Languages
+    info:
       - idiom: Portuguese
         level: Native
 
@@ -34,7 +46,9 @@ sidebar:
       - idiom: Spanish
         level: Professional
 
-    interests:
+  interests:
+    title: Interests
+    info:
       - item: Cycling
         link:
 
@@ -42,51 +56,31 @@ sidebar:
         link:
 
 career-profile:
-    title: Profile
-    summary: |
-      Collaboration solutions architect with 12 years at Cisco and end-to-end delivery experience: discovery, architecture design, sizing, integration and go-live. Deep expertise in CUCM, HCS, Webex Calling, Contact Center and automation (DevNet, Python). Proven record designing solutions for multi-site, hybrid cloud/on-prem projects at Fortune 500 customers across the Americas and EMEA. MBA in Project Management. Trilingual.
+  title: Profile
+  summary: |
+    Collaboration solutions architect with 12 years at Cisco and end-to-end delivery experience: discovery, architecture design, sizing, integration and go-live. Deep expertise in CUCM, HCS, Webex Calling, Contact Center and automation (DevNet, Python). Proven record designing solutions for multi-site, hybrid cloud/on-prem projects at Fortune 500 customers across the Americas and EMEA. MBA in Project Management. Trilingual.
 
 education:
+  title: Education
+  info:
     - degree: MBA in Project Management
       university: Universidade Federal de Juiz de Fora (UFJF)
       time: 2012 - 2013
     - degree: Technologist in Internet & Computer Networks
       university: Universidade Salgado de Oliveira
       time: 2005 - 2007
-    - degree: CCIE Collaboration 58006
-      university: Cisco Systems
-      time: 2017
-    - degree: Cisco DevNet
-      university: Cisco Systems
-      time:
-    - degree: Cisco AI Technical Practitioner
-      university: Cisco Systems
-      time:
-    - degree: Cisco Certified Specialist – Collaboration Core
-      university: Cisco Systems
-      time:
-    - degree: ONEx Agile Fundamentals
-      university: Cisco Systems
-      time:
-    - degree: Introducing Automation for Cisco Solutions
-      university: Cisco Systems
-      time:
-    - degree: AI for Networking
-      university: Cisco Systems
-      time:
-    - degree: VMware vSphere ICM V6.0
-      university: VMware
-      time:
 
 experiences:
+  title: Experiences
+  info:
     - role: Customer Delivery Engineering Technical Leader
       time: Nov 2024 - May 2026
-      company: Cisco
+      company: Cisco, Rio de Janeiro
       details: |
         Technical leadership of architects on collaboration implementation projects for enterprise customers. Set architecture standards, design reviews and technical governance throughout delivery.
     - role: Consulting Engineer, Collaboration Solutions
       time: Nov 2018 - Nov 2024
-      company: Cisco
+      company: Cisco, Rio de Janeiro
       details: |
         Designed collaboration architectures for multi-site, hybrid cloud/on-prem projects. Detailed technical specification of CUCM, HCS, Webex Calling, Contact Center, CUBE/SBC, ITSP integration. Capacity sizing, high availability and disaster recovery design. Integration with Active Directory/LDAP, gateways and management platforms; technical review of proposals.
     - role: Customer Support Engineer, CUCM
@@ -104,7 +98,7 @@ experiences:
       company: Cisco
     - role: Founder
       time: Feb 2022 - Present
-      company: Hallen Tech
+      company: Hallen Tech, Rio de Janeiro
       details: |
         Architecture and delivery of full-stack web platforms (NestJS, Prisma, PostgreSQL, React 19, TypeScript). Operate a private Kubernetes cluster (Proxmox, kubeadm HA, Flannel, MetalLB, Traefik) as a hands-on reference for modern on-prem architecture.
     - role: Co-Founder
@@ -114,45 +108,73 @@ experiences:
         Senior technical training program in networking, collaboration and development.
     - role: Network Support Analyst
       time: Feb 2008 - Nov 2014
-      company: MRS Logística
+      company: MRS Logística, Juiz de Fora
       details: |
         Second level engineer responsible for network, telephony infrastructure, collaboration servers and endpoints, datacenter network and interconnections. Researched, planned and implemented new technologies, managing and coordinating the field team during implementation.
     - role: Founder
       time: May 2004 - Feb 2008
-      company: Sol Informática
+      company: Sol Informática, Juiz de Fora
       details: |
         Computer maintenance and small projects for data and voice networks, desktop software, websites and small web-based systems for residential and small enterprises.
 
+certifications:
+  title: Certifications
+  list:
+    - name: CCIE Collaboration 58006
+      start: 2017
+      end:
+      organization: Cisco Systems
+      credentialid:
+      credentialurl:
+      credentialname: Cisco
+    - name: Cisco Certified Specialist – Collaboration Core
+      organization: Cisco Systems
+    - name: Cisco DevNet
+      organization: Cisco Systems
+    - name: Cisco AI Technical Practitioner
+      organization: Cisco Systems
+    - name: AI for Networking
+      organization: Cisco Systems
+    - name: Introducing Automation for Cisco Solutions
+      organization: Cisco Systems
+    - name: ONEx Agile Fundamentals
+      organization: Cisco Systems
+    - name: VMware vSphere ICM V6.0
+      organization: VMware
+
 skills:
-    title: Skills &amp; Proficiency
+  title: Skills &amp; Proficiency
 
-    toolset:
-      - name: CUCM, HCS, Webex Calling, Contact Center
-        level: 95%
+  toolset:
+    - name: CUCM, HCS, Webex Calling, Contact Center
+      level: 95%
 
-      - name: CUBE/SBC, ITSP, SIP, H.323, MGCP
-        level: 95%
+    - name: CUBE/SBC, ITSP, SIP, H.323, MGCP
+      level: 95%
 
-      - name: High Availability, DR, Capacity Sizing, Multi-site
-        level: 90%
+    - name: High Availability, DR, Capacity Sizing, Multi-site
+      level: 90%
 
-      - name: Hybrid Cloud / On-prem Architecture
-        level: 90%
+    - name: Hybrid Cloud / On-prem Architecture
+      level: 90%
 
-      - name: DevNet, Python, Webex APIs, AAP, IaC
-        level: 85%
+    - name: DevNet, Python, Webex APIs, AAP, IaC
+      level: 85%
 
-      - name: Kubernetes (kubeadm HA), Linux
-        level: 80%
+    - name: Kubernetes (kubeadm HA), Linux
+      level: 80%
 
-      - name: VMware vSphere, Proxmox, Active Directory
-        level: 85%
+    - name: VMware vSphere, Proxmox, Active Directory
+      level: 85%
 
-      - name: NestJS, TypeScript, React, PostgreSQL
-        level: 80%
+    - name: NestJS, TypeScript, React, PostgreSQL
+      level: 80%
 
-      - name: Technical Documentation & Executive Presentations (CIO/CTO)
-        level: 95%
+    - name: Technical Documentation & Executive Presentations (CIO/CTO)
+      level: 95%
 
-      - name: Workshops in EN / PT / ES
-        level: 95%
+    - name: Workshops in EN / PT / ES
+      level: 95%
+
+footer: >
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
